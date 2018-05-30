@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to write your story!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="person1">A name</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="person2">Another name</label>
+            <input id="person2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="animal">An animal</label>
+            <input id="animal" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="exclamation">An exclamation</label>
+            <input id="exclamation" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="verb">A past tense verb</label>
+            <input id="verb" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="noun">A plural noun</label>
+            <input id="noun" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me the story!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>A fantastical adventure</h1>
+        <p>
+There once was a farmer named <span class="person1"></span> who lived with their spouse <span class="person2"></span>. One year when the crops would not grow, a mysterious man selling a magic <span class="animal"></span> appeared. "Buy my <span class="animal"></span> and your farm will be saved!"  <span class="person2"></span> looked at <span class="person1"></span> and cried "<span class="exclamation"></span>"! The two of them paid the man and
+<span class="verb"></span> as quickly possible home to make a cage for the <span class="animal"></span>.  The next day their farm began sprouting <span class="noun"></span>!!
+</p>
+      </div>
+    </div>
+  </body>
+</html>
